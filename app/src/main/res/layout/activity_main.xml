@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:orientation="vertical"
+    android:padding="12dp"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity">
+
+
+
+
+    <EditText
+        android:id="@+id/edit_nombre"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:ems="10"
+        android:inputType="textPersonName"
+        android:hint="Nombre"
+        />
+
+    <EditText
+        android:id="@+id/edit_Apellido"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:ems="10"
+        android:inputType="textPersonName"
+        android:hint="Apellido"/>
+
+    <EditText
+        android:id="@+id/edit_Correo"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:ems="10"
+        android:inputType="textEmailAddress"
+        android:hint="Correo"/>
+
+    <EditText
+        android:id="@+id/edit_Contrasena"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:ems="10"
+        android:inputType="textPassword"
+        android:hint="contraseña"/>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:textSize="30dp"
+        android:layout_margin="10dp"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_horizontal"
+        android:text="Lista de personas"/>
+    <ListView
+        android:id="@+id/lv_datosPersonas"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        />
+
+
+</LinearLayout>
